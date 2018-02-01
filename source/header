@@ -1,0 +1,3 @@
+TouchScreen ts = TouchScreen(XP, YP, XM, YM);
+char* instText[]={"Starting serial on Baud 9600...", "Initiating TFT...", "Initiating HID...","Loading custom settings...","Done.","Starting OS"};
+int keyPressHold = 600;

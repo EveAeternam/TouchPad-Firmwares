@@ -1,0 +1,22 @@
+void bootIns(int val) {
+  switch (val) {
+    case 0:
+      Serial.println("Serial Com is now running on Baud 9600");
+      break;
+    case 1:
+      
+      break;
+    case 2:
+      Keyboard.begin();
+      break;
+    case 3:
+      
+      break;
+    case 4:
+
+      break;
+    case 5:
+      Serial.println("End of POST");
+      break;
+  }
+}

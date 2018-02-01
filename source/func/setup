@@ -1,0 +1,5 @@
+void setup() {
+  Serial.begin(9600);
+  Tft.TFTinit();
+  boot(2000);
+}

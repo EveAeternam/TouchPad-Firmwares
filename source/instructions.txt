@@ -1,0 +1,8 @@
+comment
+includes
+header
+$buttons_array
+func/setup
+func/boot
+func/bootins
+$loop_function
